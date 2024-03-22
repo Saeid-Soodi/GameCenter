@@ -1,0 +1,25 @@
+{
+  "name": "game-center",
+  "version": "1.0.0",
+  "description": "store for games",
+  "main": "index.js",
+  "scripts": {
+    "index": "npx tailwindcss -i src/styles/style.css -o public/dist/styles/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saeid-Soodi/GameCenter.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Saeed Soodi , Mohadese Maleki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saeid-Soodi/GameCenter/issues"
+  },
+  "homepage": "https://github.com/Saeid-Soodi/GameCenter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
